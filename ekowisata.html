@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Informasi potensi Ekowisata Lubuk Munik di Desa Pagar Ruyung."
+    />
+    <title>Ekowisata Lubuk Munik | Desa Pagar Ruyung</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .navbar {
+        padding: 16px 8%;
+      }
+      .nav-inner {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .brand {
+        color: #1b6b45;
+        font-weight: 700;
+        font-size: 1.2rem;
+        text-decoration: none;
+      }
+      .navbar nav {
+        display: flex;
+        position: static;
+        width: auto;
+        flex-direction: row;
+        padding: 0;
+        background: transparent;
+      }
+      .page-content {
+        width: min(100%, 1100px);
+        min-height: 75vh;
+        margin: 0 auto;
+        padding: 120px 32px 72px;
+      }
+      .page-content > .small-title {
+        margin: 0 0 10px;
+      }
+      .page-content h1 {
+        color: #1b6b45;
+        font-size: clamp(2rem, 5vw, 3.2rem);
+        line-height: 1.2;
+        margin: 0 0 18px;
+      }
+      .page-content h2 {
+        color: #1b6b45;
+        margin: 0 0 18px;
+      }
+      .page-content p {
+        margin: 0;
+      }
+      .page-content > p:not(.small-title) {
+        max-width: 780px;
+        margin-bottom: 32px;
+      }
+      .photo-gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin-top: 0;
+      }
+      .photo-card {
+        overflow: hidden;
+        margin: 0;
+        border-radius: 14px;
+        background: #f5f8f5;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+      }
+      .photo-card img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      .photo-caption {
+        padding: 20px 22px;
+      }
+      .photo-caption p {
+        line-height: 1.75;
+      }
+      @media (max-width: 768px) {
+        .navbar {
+          padding: 14px 5%;
+        }
+        .navbar nav {
+          display: flex;
+          position: static;
+          flex-direction: row;
+          gap: 12px;
+        }
+        .page-content {
+          padding: 108px 6% 56px;
+        }
+        .page-content > p:not(.small-title) {
+          margin-bottom: 26px;
+        }
+        .photo-gallery {
+          gap: 18px;
+        }
+        .photo-caption {
+          padding: 16px;
+        }
+      }
+      @media (max-width: 420px) {
+        .nav-inner {
+          flex-wrap: wrap;
+          gap: 4px 14px;
+        }
+        .brand {
+          font-size: 1rem;
+        }
+        .navbar nav {
+          gap: 10px;
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a class="brand" href="index.html#beranda">Desa Pagar Ruyung</a>
+        <nav aria-label="Navigasi utama">
+          <a href="index.html#profil">Profil</a>
+          <a href="index.html#potensi" aria-current="page">Potensi</a>
+          <a href="index.html#kontak">Kontak</a>
+        </nav>
+      </div>
+    </header>
+    <main class="page-content">
+      <p class="small-title">POTENSI DESA</p>
+      <h1>Ekowisata Lubuk Munik</h1>
+      <p>
+        Lubuk Munik merupakan potensi ekowisata di Desa Pagar Ruyung tidak hanya
+        pertanaian berkelanjutan tetapi pengembangan wisata yang berkelanjutan
+        dapat memperkenalkan alam desa sekaligus memberi ruang bagi keterlibatan
+        masyarakat.
+      </p>
+      <section aria-labelledby="galeri-ekowisata">
+        <h2 id="galeri-ekowisata">Galeri Ekowisata</h2>
+        <div class="photo-gallery">
+          <figure class="photo-card">
+            <img
+              src="images/lubk muniks.jpeg"
+              alt="Peta penggunaan lahan pertanian Desa Pagar Ruyung"
+              loading="lazy"
+            />
+            <figcaption class="photo-caption">
+              <p>
+                Salah satu kegiatan di ekowisata Lubuk Munik adalah river tubing. Dalam aktivitas river tubing, keamanan merupakan prioritas utama yang tidak boleh diabaikan. Ekowisata Lubuk Munik mewajibkan setiap peserta mengenakan perlengkapan standar seperti pelampung dan helm, karena perlengkapan tersebut berfungsi sebagai perlindungan nyata terhadap risiko tenggelam maupun benturan dengan batu di sepanjang aliran sungai. Pemandu lapangan biasanya memberikan pengarahan sebelum kegiatan dimulai, menjelaskan cara duduk yang benar di atas ban, teknik menjaga keseimbangan, serta prosedur menghadapi kondisi darurat.
+              </p>
+            </figcaption>
+          </figure>
+          <figure class="photo-card">
+            <img
+              src="images/mandi.jpeg"
+              alt="Peta penggunaan lahan pertanian Desa Pagar Ruyung"
+              loading="lazy"
+            />
+            <figcaption class="photo-caption">
+              <p>
+                Selain river tubing Ekowisata Lubuk Munik menyediakan aktivitas rekreasi alam yang menghadirkan kesegaran sekaligus kebersamaan seperti mandi sungai. Wisatawan dapat merasakan kesejukan air yang jernih, mengalir di antara bebatuan alami dengan suasana hutan atau pedesaan yang masih asri. Sensasi air yang dingin berpadu dengan suara gemericik arus sungai menciptakan pengalaman relaksasi yang menenangkan.
+              </p>
+            </figcaption>
+          </figure>
+          <figure class="photo-card">
+            <img
+              src="images/IMG_7582.jpeg"
+              alt="Peta penggunaan lahan pertanian Desa Pagar Ruyung"
+              loading="lazy"
+            />
+            <figcaption class="photo-caption">
+              <p>
+                Ekowisata Lubuk Munik menyediakan area camping ground sebagai area khusus yang disediakan bagi wisatawan untuk mendirikan tenda dan menikmati suasana alam secara langsung. Lokasi ini berada di kawasan wisata alam Lubuk Munik yaitu tepi sungai, dengan pemandangan yang indah dan udara yang segar. Suasana camping ground menghadirkan pengalaman kebersamaan, di mana wisatawan dapat beristirahat, memasak bersama, atau melakukan aktivitas luar ruang seperti api unggun dan permainan kelompok.
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; <span id="year"></span> Desa Pagar Ruyung</p>
+    </footer>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,237 @@
+﻿<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Informasi resmi Desa Pagar Ruyung, Bengkulu Utara: profil, potensi, dan kontak."
+    />
+    <title>Desa Pagar Ruyung</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      .navbar {
+        padding: 16px 8%;
+      }
+      .nav-inner {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .brand {
+        color: #1b6b45;
+        font-weight: 700;
+        font-size: 1.25rem;
+        text-decoration: none;
+      }
+      .hero {
+        overflow: hidden;
+      }
+      .hero-video {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .hero-overlay {
+        z-index: 0;
+      }
+      .hero-content {
+        max-width: 850px;
+      }
+      .hero-content .btn {
+        margin: 12px 8px 0;
+      }
+      #profil .text-box p {
+        text-align: justify;
+      }
+      .menu-btn {
+        color: #1b6b45;
+      }
+      .section[id],
+      .hero[id] {
+        scroll-margin-top: 80px;
+      }
+      #potensi .cards {
+        max-width: 800px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+      @media (max-width: 768px) {
+        .navbar {
+          padding: 14px 5%;
+        }
+        .nav-inner {
+          position: relative;
+        }
+        .nav {
+          top: 58px;
+        }
+        #potensi .cards {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container nav-inner">
+        <a class="brand" href="#beranda">Desa Pagar Ruyung</a>
+        <nav id="nav" class="nav" aria-label="Navigasi utama">
+          <a href="#beranda">Beranda</a>
+          <a href="#profil">Profil</a>
+          <a href="#potensi">Potensi</a>
+          <a href="#kontak">Kontak</a>
+        </nav>
+        <button
+          id="menuBtn"
+          class="menu-btn"
+          type="button"
+          aria-label="Buka menu"
+          aria-expanded="false"
+          aria-controls="nav"
+        >
+          ☰
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="beranda" class="hero">
+        <video
+          class="hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          aria-label="Video suasana Desa Pagar Ruyung"
+        >
+          <source src="images/IMG_4461.MOV" type="video/mp4" />
+          Browser Anda tidak mendukung video.
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1>Selamat Datang<br />di Desa Pagar Ruyung</h1>
+          <p>Mengenal profil, potensi, dan kehidupan masyarakat desa.</p>
+          <a href="#profil" class="btn">Jelajahi Desa</a>
+          <a href="#potensi" class="btn">Lihat Potensi</a>
+        </div>
+      </section>
+
+      <section id="profil" class="section">
+        <div class="container">
+          <div class="section-title">
+            <p>TENTANG DESA</p>
+            <h2>Profil Desa</h2>
+          </div>
+          <div class="text-box" style="max-width: 850px; margin: auto">
+            <h3>Desa Pagar Ruyung</h3>
+            <p>
+              Selamat datang di website Desa Pagar Ruyung. Desa Pagar Ruyung,
+              Bengkulu Utara, memiliki potensi ganda sebagai kawasan pertanian
+              sekaligus destinasi ekowisata berbasis lanskap alami, yang di satu
+              sisi dapat memberikan manfaat ekonomi dan sosial bagi masyarakat.
+              sehingga pengelolaan lahan yang berkelanjutan menjadi penting,
+              terutama terkait peran lahan sebagai penyedia karbon organik
+              tanah. Penelitian ini bertujuan menentukan sebaran spasial karbon
+              organik tanah pada berbagai jenis lahan pertanian serta menentukan
+              arahan pengelolaan penyedia karbon organik tanah di berbagai jenis
+              penggunaan lahan (perkebunan, tegalan/ladang dan sawah). Secara
+              administratif Desa Pagar Ruyung terletak di Kecamatan Arma Jaya,
+              Kabupaten Bengkulu Utara. Jarak dari Desa Pagar Ruyung, Kecamatan
+              Arma Jaya, Kabupaten Bengkulu Utara ke Kota Bengkulu adalah
+              sekitar 57,5 kilometer dengan jarak tempuh sekitar 1 jam
+              perjalanan yang dimana sangat memungkinkan menjadi salah satu
+              destinasi masyarakat bengkulu untuk mengunjungi ekowisata Lubuk
+              Munik. Kami berkomitmen mengembangkan potensi desa dan
+              meningkatkan kesejahteraan masyarakat melalui pertanian
+              berkelanjutan serta ekowisata Lubuk Munik.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="potensi" class="section light">
+        <div class="container">
+          <div class="section-title">
+            <p>POTENSI UNGGULAN</p>
+            <h2>Potensi Desa</h2>
+          </div>
+          <div class="cards">
+            <a
+              class="card card-link"
+              href="pertanian.html"
+              aria-label="Lihat halaman potensi pertanian"
+            >
+              <div class="card-icon" aria-hidden="true">🌾</div>
+              <h3>Pertanian</h3>
+              <p>
+                Pertanian dan sumber daya alam menjadi bagian penting
+                penghidupan masyarakat desa.
+              </p>
+            </a>
+            <a
+              class="card card-link"
+              href="ekowisata.html"
+              aria-label="Lihat halaman Ekowisata Lubuk Munik"
+            >
+              <div class="card-icon" aria-hidden="true">🌊</div>
+              <h3>Ekowisata Lubuk Munik</h3>
+              <p>
+                Keindahan alam desa membuka peluang wisata yang berkelanjutan
+                dan berakar pada masyarakat.
+              </p>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="kontak" class="section">
+        <div class="container">
+          <div class="section-title">
+            <p>INFORMASI KONTAK</p>
+            <h2>Hubungi Kami</h2>
+          </div>
+          <div class="contact-box">
+            <p>📍 Alamat : Desa Pagar Ruyung, Bengkulu Utara</p>
+            <p>☎ Contact Person :</p>
+            <p>Telepon : 0823-7690-5009</p>
+            <p>Instagram : @objek_wisata_lubuk_munik @pokdarwis_dewibuiser</p>
+            <p>◷ Jam Opeasional : Senin–Minggu, 08.00–17.00 WIB</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; <span id="year"></span> Desa Pagar Ruyung. Semua hak
+          dilindungi.
+        </p>
+        <p><a href="#beranda" style="color: inherit">Kembali ke atas ↑</a></p>
+      </div>
+    </footer>
+    <script>
+      const menuButton = document.getElementById("menuBtn");
+      const navigation = document.getElementById("nav");
+      menuButton.addEventListener("click", () => {
+        const isOpen = navigation.classList.toggle("active");
+        menuButton.setAttribute("aria-expanded", String(isOpen));
+        menuButton.setAttribute(
+          "aria-label",
+          isOpen ? "Tutup menu" : "Buka menu",
+        );
+      });
+      navigation.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+          navigation.classList.remove("active");
+          menuButton.setAttribute("aria-expanded", "false");
+          menuButton.setAttribute("aria-label", "Buka menu");
+        });
+      });
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
